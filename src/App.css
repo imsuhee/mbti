@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+html,
+body,
+#root,
+#root > div {
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  overflow: hidden; /* 스크롤 막기 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#body {
+  /*여기는 바디*/
+  min-height: 100vh; /* 최소 너비가 100vh이고 만약애 자식이 커지면 부모도 같이 커짐 */
+  width: 100%; /*모바일의 경우 width: 100%로 설정된다. */
+  margin: 0 auto;
+  cursor: url("./Images/cat.png"), auto;
+  font-family: "Ramche";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.element,
+a,
+button {
+  cursor: url("./Images/cat.png"), auto;
 }
