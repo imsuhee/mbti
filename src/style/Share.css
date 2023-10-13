@@ -1,0 +1,29 @@
+/* Share.css */
+.share-button {
+  background-color: #a85ec5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.share-button:hover {
+  background-color: rgb(62, 99, 138);
+}
+
+.copy-textarea {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.share-button-container {
+  display: flex; /* 자식 요소들을 가로로 배치하기 위해 flex 컨테이너로 설정 */
+  flex-direction: column; /* 자식 요소들을 세로로 배치 (위에서 아래로) */
+  align-items: center; /* 세로 중앙 정렬 */
+  width: 100%; /* 모바일의 경우 width: 100%로 설정됩니다. */
+  margin: 0 auto;
+}

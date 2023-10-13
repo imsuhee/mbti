@@ -17,11 +17,11 @@ body,
   min-height: 100vh; /* 최소 너비가 100vh이고 만약애 자식이 커지면 부모도 같이 커짐 */
   width: 100%; /*모바일의 경우 width: 100%로 설정된다. */
   margin: 0 auto;
-  cursor: url("./Images/cat.png"), auto;
+  cursor: url("./Images/pointer.png"), auto;
   font-family: "Ramche";
 }
 .element,
 a,
 button {
-  cursor: url("./Images/cat.png"), auto;
+  cursor: url("./Images/pointer.png"), auto;
 }

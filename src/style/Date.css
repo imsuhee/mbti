@@ -1,0 +1,11 @@
+.share-button-container1 {
+  display: flex; /* 자식 요소들을 가로로 배치하기 위해 flex 컨테이너로 설정 */
+  flex-direction: column; /* 자식 요소들을 세로로 배치 (위에서 아래로) */
+  align-items: center; /* 세로 중앙 정렬 */
+  width: 100%; /* 모바일의 경우 width: 100%로 설정됩니다. */
+  margin: 0 auto;
+}
+.text_date {
+  margin-bottom: 15px;
+  align-items: center; /* 세로 중앙 정렬 */
+}

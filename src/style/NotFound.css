@@ -1,0 +1,30 @@
+.Errorbox {
+  font-size: 25px;
+
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 700px;
+  height: 800px;
+  text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.Errorbox img {
+  display: block; /* 이미지를 블록 레벨 요소로 설정 */
+  margin: 0 auto; /* 이미지를 수평 가운데 정렬 */
+}
+
+.Errorbox p {
+  margin-top: 10px; /* 텍스트와 이미지 사이의 간격 조절 */
+}
+.notfound {
+  margin-top: 10px;
+  color: white;
+  font-size: 18px; /* 글꼴 크기 설정 */
+  line-height: 1.5; /* 행간 설정 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.301); /* 그림자 효과 설정 */
+  color: #fa0000;
+}
